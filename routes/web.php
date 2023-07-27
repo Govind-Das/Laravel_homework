@@ -19,3 +19,4 @@ Route::get('/', function () {
 });
 
 Route::get('/firstcontroller',['xyzcontroller::class','greeting']);
+Route::get('/secondcontroller',['xyzcontroller::class','greeting']);
